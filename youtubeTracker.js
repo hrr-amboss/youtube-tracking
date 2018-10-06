@@ -1,3 +1,4 @@
+// First iteration - needs Code review
 var sheet = SpreadsheetApp.getActive().getSheetByName('overview');
 var alertVids = {id: [], upload: [], privacy: [], title: []}; // Alert videos object, collects all suspicious videos
 var idList = sheet.getDataRange().getValues();
